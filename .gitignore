@@ -1,0 +1,78 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment files and credentials
+.env
+.env.*
+*.env
+kaggle.json
+.kaggle/
+
+# Dataset storage (preserve .gitkeep and README.md only)
+datasets/raw/*
+!datasets/raw/.gitkeep
+datasets/processed/*
+!datasets/processed/.gitkeep
+
+# Model artifacts and checkpoints (preserve .gitkeep only)
+models/*
+!models/.gitkeep
+!models/README.md
+
+# Runtime logs, scratch & temporary files
+*.log
+logs/
+scratch/
+tmp/
+temp/
+
+# Frontend dependencies and cache
+node_modules/
+frontend/node_modules/
+.eslintcache
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/credentials.toml
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+.venv-linux/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+dist/
+build/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and OS files
+.vscode/
+.DS_Store

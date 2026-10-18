@@ -1,0 +1,9 @@
+{"document_id": "pii_01", "text": "Contact Alice at alice.smith@example.org for project updates.", "spans": [{"entity_type": "EMAIL", "start": 17, "end": 40, "label": "EMAIL"}]}
+{"document_id": "pii_02", "text": "Please call support at +1-800-555-0199 or office +44 20 7946 0991 immediately.", "spans": [{"entity_type": "PHONE", "start": 23, "end": 38, "label": "PHONE"}, {"entity_type": "PHONE", "start": 49, "end": 65, "label": "PHONE"}]}
+{"document_id": "pii_03", "text": "Server deployed at 192.168.1.105 with gateway 10.0.0.1.", "spans": [{"entity_type": "IP_ADDRESS", "start": 19, "end": 32, "label": "IP_ADDRESS"}, {"entity_type": "IP_ADDRESS", "start": 46, "end": 54, "label": "IP_ADDRESS"}]}
+{"document_id": "pii_04", "text": "Review profile at https://linkedin.com/in/jane-doe-fake and GitHub https://github.com/janedoe.", "spans": [{"entity_type": "PERSONAL_URL", "start": 18, "end": 55, "label": "PERSONAL_URL"}, {"entity_type": "PERSONAL_URL", "start": 67, "end": 93, "label": "PERSONAL_URL"}]}
+{"document_id": "pii_05", "text": "Employee SSN registered as 000-12-3456 in human resources.", "spans": [{"entity_type": "ID_NUMBER", "start": 27, "end": 38, "label": "ID_NUMBER"}]}
+{"document_id": "pii_06", "text": "Applicant Name: Johnathan Doe was interviewed yesterday.", "spans": [{"entity_type": "NAME", "start": 16, "end": 29, "label": "NAME"}]}
+{"document_id": "pii_07", "text": "Send email to user@example.com or backup to user@example.com anytime.", "spans": [{"entity_type": "EMAIL", "start": 14, "end": 30, "label": "EMAIL"}, {"entity_type": "EMAIL", "start": 44, "end": 60, "label": "EMAIL"}]}
+{"document_id": "pii_08", "text": "Existing prompt contains [EMAIL_1] and target info@company.com here.", "spans": [{"entity_type": "EMAIL", "start": 46, "end": 62, "label": "EMAIL"}]}
+{"document_id": "pii_09", "text": "The quick brown fox jumps over the lazy dog in broad daylight.", "spans": []}

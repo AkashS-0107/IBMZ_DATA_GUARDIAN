@@ -1,0 +1,3 @@
+# Ignore processed dataset artifacts
+*
+!.gitkeep
